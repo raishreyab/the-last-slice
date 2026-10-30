@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>THE LAST SLICE – Curse of the Pumpkin | Official Horror Game</title>
+  <meta name="description" content="Experience THE LAST SLICE: Curse of the Pumpkin. A 3D first-person stealth horror game in an abandoned 1987 pizzeria stalked by a cursed Werewolf AI that remembers your every move." />
+
+  <!-- Google Fonts: Horror & Cinematic Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Creepster&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+
+  <!-- ======================================================== -->
+  <!-- PART 1: CINEMATIC INTRODUCTION OVERLAY                   -->
+  <!-- ======================================================== -->
+  <div id="cinematic-intro-container" class="cinematic-intro-overlay" style="display:none;"></div>
+
+  <!-- ======================================================== -->
+  <!-- PART 2: PROFESSIONAL HORROR GAMING LANDING PAGE          -->
+  <!-- ======================================================== -->
+  <div id="landing-page-container" class="landing-page-wrapper">
+    <!-- Header / Navbar -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="#hero" class="site-logo">
+          <span class="logo-icon">🎃</span>
+          <span class="logo-text">THE LAST SLICE</span>
+        </a>
+
+        <nav class="site-nav">
+          <a href="#story" class="nav-link">STORY</a>
+          <a href="#features" class="nav-link">FEATURES</a>
+          <a href="#gallery" class="nav-link">GALLERY</a>
+          <a href="#how-to-play" class="nav-link">HOW TO PLAY</a>
+          <a href="#credits" class="nav-link">CREDITS</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="btn-launch-intro ghost-header-btn">🎬 WATCH INTRO</button>
+          <button class="btn-launch-game primary-header-btn pulse-glow">▶ PLAY NOW</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-bg-art"></div>
+      <div class="hero-embers"></div>
+      <div class="hero-overlay-dark"></div>
+
+      <div class="hero-content">
+        <div class="hero-pretitle">A 3D FIRST-PERSON STEALTH HORROR EXPERIENCE</div>
+        <h1 class="hero-title">THE LAST SLICE</h1>
+        <h2 class="hero-subtitle">CURSE OF THE PUMPKIN</h2>
+        <p class="hero-tagline">"One Pizzeria. One Curse. No Escape."</p>
+
+        <p class="hero-description">
+          Trapped inside <em>Pumpkin Crust</em>, an abandoned 1987 Halloween pizzeria.
+          A terrifying werewolf named Elias stalks every corridor.
+          Solve ancient ritual puzzles, gather magical pumpkin fragments, and remember: 
+          <strong>The beast remembers everywhere you hide.</strong>
+        </p>
+
+        <div class="hero-cta-group">
+          <button class="btn-launch-game hero-primary-btn pulse-glow">⚡ PLAY GAME NOW</button>
+          <button class="btn-launch-intro hero-secondary-btn">🎬 WATCH CINEMATIC INTRO</button>
+          <a href="#story" class="hero-ghost-btn nav-link">📖 DISCOVER THE LORE</a>
+        </div>
+
+        <div class="hero-specs-row">
+          <div class="spec-pill"><span>🎮</span> 3D First-Person</div>
+          <div class="spec-pill"><span>🐺</span> The Beast Remembers AI</div>
+          <div class="spec-pill"><span>🎃</span> 4 Pumpkin Powers</div>
+          <div class="spec-pill"><span>📱</span> Mobile Virtual Joystick</div>
+          <div class="spec-pill"><span>🆓</span> Free Web Browser Play</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story / Lore Section -->
+    <section id="story" class="content-section story-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">THE ARCHIVES OF 1987</span>
+          <h2 class="section-title">THE CURSE OF PUMPKIN CRUST</h2>
+          <div class="title-divider"></div>
+        </div>
+
+        <div class="story-grid">
+          <div class="story-card">
+            <div class="story-badge">CHAPTER PROLOGUE</div>
+            <h3>THE FORBIDDEN RITUAL</h3>
+            <p>
+              Many years ago, Pumpkin Crust was the town's most beloved Halloween pizzeria. 
+              Its eccentric owner, Elias, discovered an ancient magical Jack-o'-Lantern buried beneath the restaurant's foundations.
+              Consumed by grief, he conducted a midnight ritual on Halloween night to recover someone he had lost forever.
+            </p>
+          </div>
+
+          <div class="story-card highlight-card">
+            <div class="story-badge">THE TRAGEDY</div>
+            <h3>TRANSFORMATION OF ELIAS</h3>
+            <p>
+              The ritual shattered. The primordial pumpkin curse backfired, warping Elias's flesh and soul into a towering, relentless Werewolf. 
+              The restaurant was sealed with heavy chains and padlocks. The employees vanished. But Elias remains inside, forever hunting in the dark corridors.
+            </p>
+          </div>
+
+          <div class="story-card">
+            <div class="story-badge">THE AWAKENING</div>
+            <h3>YOUR LOST MEMORIES</h3>
+            <p>
+              You awaken inside the locked bedroom with no memory of how you arrived. 
+              A mysterious journal beside your bed delivers a single chilling warning: 
+              <em>"Collect the pumpkin fragments before midnight. Whatever happens, DO NOT MAKE A SOUND."</em>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Game Features Section -->
+    <section id="features" class="content-section features-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">NEXT-GEN HORROR MECHANICS</span>
+          <h2 class="section-title">GAMEPLAY FEATURES</h2>
+          <div class="title-divider"></div>
+        </div>
+
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <div class="feature-card">
+            <div class="feature-icon">🐺</div>
+            <h3>THE BEAST REMEMBERS AI</h3>
+            <p>
+              Elias does not mindlessly wander. The Werewolf hears footstep frequencies, tracks sound hotspots, and 
+              <strong>remembers which wardrobes and lockers you repeatedly hide in</strong>, checking them more aggressively as chapters progress.
+            </p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-card">
+            <div class="feature-icon">🎃</div>
+            <h3>MAGICAL JACK-O'-LANTERN</h3>
+            <p>
+              Wield 4 supernatural abilities: <strong>Soul Light</strong> for dark areas, 
+              <strong>Ghost Vision</strong> to decode invisible occult runes, 
+              <strong>Flash Burst</strong> to temporarily blind and stun the beast, and 
+              <strong>Soul Tracker</strong> to summon guiding spirits.
+            </p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="feature-card">
+            <div class="feature-icon">🍕</div>
+            <h3>9-ROOM INTERCONNECTED MAP</h3>
+            <p>
+              Explore a fully seamless pizzeria: Bedroom, Main Hallway, Haunted Kitchen, Dining Hall, Storage, 
+              Security CCTV Room, Owner's Office, the Subterranean Ritual Chamber, and the Main Exit. Previously unlocked doors remain accessible.
+            </p>
+          </div>
+
+          <!-- Feature 4 -->
+          <div class="feature-card">
+            <div class="feature-icon">🧩</div>
+            <h3>TACTILE SURVIVAL PUZZLES</h3>
+            <p>
+              Solve interactive 3D mysteries: rotary 3-digit combination safe dials, ritual pizza recipe assembly, 
+              dining table rune alignments, security circuit breaker switches, and ancient pentagram offerings.
+            </p>
+          </div>
+
+          <!-- Feature 5 -->
+          <div class="feature-card">
+            <div class="feature-icon">🎧</div>
+            <h3>PROCEDURAL WEB AUDIO</h3>
+            <p>
+              100% self-contained synthesized horror soundscapes: proximity heartbeats that accelerate from 60 to 150 BPM as Elias draws near, 
+              spatial floorboard creaks, distance-scaled growls, and bone-chilling howls.
+            </p>
+          </div>
+
+          <!-- Feature 6 -->
+          <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3>MOBILE & DESKTOP DUAL INPUT</h3>
+            <p>
+              Play on PC with smooth mouse-look and WASD controls, or on Android mobile browsers with custom virtual analog joystick, 
+              drag-to-look touch controls, and high-performance WebGL rendering.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery / Screenshots Section -->
+    <section id="gallery" class="content-section gallery-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">ENVIRONMENT SHOWCASE</span>
+          <h2 class="section-title">SCREENSHOTS & GALLERY</h2>
+          <div class="title-divider"></div>
+          <p class="section-subtext">Click any chamber to inspect the 3D environmental artwork and security archives.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item" data-title="The Abandoned Bedroom" data-desc="The starting chamber. Dust-covered bed, Elias's urgent diary, and the locked wooden door leading to the hallway.">
+            <div class="gallery-art gallery-art-bedroom" data-art-class="gallery-art-bedroom"></div>
+            <div class="gallery-caption">
+              <h4>The Abandoned Bedroom</h4>
+              <span>Chapter I: The Awakening</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-title="Elias the Werewolf" data-desc="A terrifying 2.4-meter tall muscular predator with razor claws, black fur, and glowing orange eyes that pierce the darkness.">
+            <div class="gallery-art gallery-art-werewolf" data-art-class="gallery-art-werewolf"></div>
+            <div class="gallery-caption">
+              <h4>Elias The Beast</h4>
+              <span>Adaptive Patrol & Chase AI</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-title="The Haunted Kitchen" data-desc="Industrial pizza ovens glowing with supernatural embers, commercial prep stations, and cursed ritual ingredients.">
+            <div class="gallery-art gallery-art-kitchen" data-art-class="gallery-art-kitchen"></div>
+            <div class="gallery-caption">
+              <h4>The Haunted Kitchen</h4>
+              <span>Chapter II: The Pizza Recipe Puzzle</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-title="The Silent Dining Room" data-desc="Checkered pizzeria tile floor with mysterious occult runes etched into circular tables, revealed only via Ghost Vision.">
+            <div class="gallery-art gallery-art-dining" data-art-class="gallery-art-dining"></div>
+            <div class="gallery-caption">
+              <h4>The Dining Room</h4>
+              <span>Chapter III: Seating Rune Alignment</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-title="The CCTV Security Console" data-desc="CRT monitor array and electrical circuit breaker panel monitoring Elias's movements across the pizzeria.">
+            <div class="gallery-art gallery-art-security" data-art-class="gallery-art-security"></div>
+            <div class="gallery-caption">
+              <h4>Security Surveillance Room</h4>
+              <span>Chapter IV: Power & Breaker Mystery</span>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-title="The Subterranean Ritual Chamber" data-desc="Ancient stone dais and glowing pentagram circle where the original pumpkin ritual shattered.">
+            <div class="gallery-art gallery-art-basement" data-art-class="gallery-art-basement"></div>
+            <div class="gallery-caption">
+              <h4>The Basement Chamber</h4>
+              <span>Chapter V & VI: Final Endings</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How To Play / Survival Guide Section -->
+    <section id="how-to-play" class="content-section guide-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">OPERATIONAL MANUAL</span>
+          <h2 class="section-title">HOW TO SURVIVE</h2>
+          <div class="title-divider"></div>
+        </div>
+
+        <div class="guide-tabs-header">
+          <button class="guide-tab-btn active" data-pane="pane-desktop">DESKTOP CONTROLS</button>
+          <button class="guide-tab-btn" data-pane="pane-mobile">MOBILE TOUCH CONTROLS</button>
+          <button class="guide-tab-btn" data-pane="pane-stealth">STEALTH & NOISE RULES</button>
+        </div>
+
+        <div class="guide-tab-content">
+          <!-- Desktop Pane -->
+          <div id="pane-desktop" class="guide-pane active">
+            <div class="controls-grid">
+              <div class="control-card"><span class="key-badge">W A S D</span><span>Movement Acceleration</span></div>
+              <div class="control-card"><span class="key-badge">MOUSE</span><span>Camera Look (Pointer Lock)</span></div>
+              <div class="control-card"><span class="key-badge">E</span><span>Interact / Pick Up / Open Doors</span></div>
+              <div class="control-card"><span class="key-badge">CTRL / C</span><span>Crouch (Sneak: Noise 5)</span></div>
+              <div class="control-card"><span class="key-badge">SHIFT</span><span>Sprint (Drain Stamina: Noise 45)</span></div>
+              <div class="control-card"><span class="key-badge">F / SPACE</span><span>Activate Pumpkin Ability</span></div>
+              <div class="control-card"><span class="key-badge">1 2 3 4</span><span>Select Pumpkin Ability Slot</span></div>
+              <div class="control-card"><span class="key-badge">TAB / I</span><span>Inventory & Object Lore</span></div>
+              <div class="control-card"><span class="key-badge">ESC</span><span>Pause Menu</span></div>
+            </div>
+          </div>
+
+          <!-- Mobile Pane -->
+          <div id="pane-mobile" class="guide-pane">
+            <div class="controls-grid">
+              <div class="control-card"><span class="key-badge">LEFT JOYSTICK</span><span>Smooth Analog Movement</span></div>
+              <div class="control-card"><span class="key-badge">RIGHT TOUCH</span><span>Swipe Right Half of Screen to Look</span></div>
+              <div class="control-card"><span class="key-badge">[USE] BUTTON</span><span>Interact, Pick Up, Open Doors</span></div>
+              <div class="control-card"><span class="key-badge">[CROUCH] BUTTON</span><span>Toggle Stealth Crouch</span></div>
+              <div class="control-card"><span class="key-badge">[RUN] BUTTON</span><span>Toggle Sprint Mode</span></div>
+              <div class="control-card"><span class="key-badge">[PUMP] BUTTON</span><span>Trigger Current Pumpkin Ability</span></div>
+              <div class="control-card"><span class="key-badge">[BAG] BUTTON</span><span>Open Mobile Inventory Grid</span></div>
+            </div>
+          </div>
+
+          <!-- Stealth Pane -->
+          <div id="pane-stealth" class="guide-pane">
+            <div class="noise-meter-showcase">
+              <div class="noise-scale-item"><span class="noise-val green">5</span><span class="noise-desc"><strong>Crouching:</strong> Whispering steps. Safe even when Elias is close.</span></div>
+              <div class="noise-scale-item"><span class="noise-val green">15</span><span class="noise-desc"><strong>Walking:</strong> Audible in adjacent rooms.</span></div>
+              <div class="noise-scale-item"><span class="noise-val orange">30</span><span class="noise-desc"><strong>Opening Rusty Doors:</strong> Creaks loudly. Close doors quietly.</span></div>
+              <div class="noise-scale-item"><span class="noise-val red">45</span><span class="noise-desc"><strong>Running:</strong> Heavy footfalls. Elias will sprint towards your position!</span></div>
+              <div class="noise-scale-item"><span class="noise-val red">65</span><span class="noise-desc"><strong>Dropping Objects:</strong> Sharp clatter. Triggers investigation.</span></div>
+              <div class="noise-scale-item"><span class="noise-val red">80</span><span class="noise-desc"><strong>Flash Burst:</strong> Blinds the beast, but alerts the entire restaurant!</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- PART 3: TEAM CREDITS SECTION                             -->
+    <!-- ======================================================== -->
+    <section id="credits" class="content-section credits-section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-eyebrow">PRODUCTION TEAM</span>
+          <h2 class="section-title">CREDITS</h2>
+          <div class="title-divider"></div>
+        </div>
+
+        <div class="credits-wrapper">
+          <div class="credits-block">
+            <h3 class="credits-heading">DEVELOPED BY</h3>
+            <p class="credits-studio-name editable-team-name">VELMORA STUDIOS</p>
+
+            <div class="team-cards-grid">
+              <div class="team-card">
+                <span class="team-role">Lead Gameplay Programmer & AI Engineer</span>
+                <span class="team-name editable-team-name">VELMORA Core Team</span>
+                <span class="team-desc">Werewolf State Machine, Navigation Graph & Pathfinding, Sound Detection</span>
+              </div>
+
+              <div class="team-card">
+                <span class="team-role">3D Technical Artist & Environment Designer</span>
+                <span class="team-name editable-team-name">VELMORA 3D Lab</span>
+                <span class="team-desc">Procedural Textures, 9-Room Interconnected Map, Volumetric Fog & Lighting</span>
+              </div>
+
+              <div class="team-card">
+                <span class="team-role">Sound Designer & Audio Synthesist</span>
+                <span class="team-name editable-team-name">VELMORA Audio Systems</span>
+                <span class="team-desc">100% Procedural Web Audio API Engine, Proximity Heartbeats, Werewolf Growls</span>
+              </div>
+
+              <div class="team-card">
+                <span class="team-role">Narrative & Interactive Level Designer</span>
+                <span class="team-name editable-team-name">VELMORA Story Department</span>
+                <span class="team-desc">6 Chapter Arcs, Tactile Survival Puzzles, 3 Distinct Endings</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="credits-block" style="margin-top: 40px;">
+            <h3 class="credits-heading">GAME DESIGN & DEVELOPMENT</h3>
+            <p class="credits-game-team editable-team-name">THE LAST SLICE TEAM</p>
+            <p class="credits-note">Built with Three.js, Web Audio API, and Modern JavaScript. (Names are freely editable in code).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Website Footer -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <span class="logo-icon">🎃</span> THE LAST SLICE – CURSE OF THE PUMPKIN
+          </div>
+          <div class="footer-links">
+            <button class="btn-launch-intro footer-link-btn">⟲ Replay Cinematic Intro</button>
+            <a href="#hero" class="footer-link-btn nav-link">↑ Back to Top</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 1987–2026 VELMORA STUDIOS & THE LAST SLICE TEAM. All rights reserved.</p>
+          <p class="footer-disclaimer">Original horror survival game. Optimized for modern Desktop and Android Mobile browsers.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Gallery Lightbox Modal -->
+  <div id="gallery-lightbox" class="gallery-lightbox" style="display:none;">
+    <div class="lightbox-content">
+      <button id="lightbox-close" class="lightbox-close-btn">&times;</button>
+      <div id="lightbox-img" class="lightbox-art-display"></div>
+      <div class="lightbox-info">
+        <h3 id="lightbox-title">Chamber Title</h3>
+        <p id="lightbox-desc">Chamber Lore Description</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- PART 4: INTERACTIVE 3D GAMEPLAY CANVAS & IN-GAME HUD     -->
+  <!-- ======================================================== -->
+  <div id="game-view-container" style="display:none;">
+    <!-- 3D Canvas Container -->
+    <div id="canvas-container"></div>
+    <div id="vignette"></div>
+
+    <!-- IN-GAME MAIN MENU -->
+    <div id="screen-menu" class="screen">
+      <div class="menu-card">
+        <h1 class="game-title">THE LAST SLICE</h1>
+        <p class="game-sub">CURSE OF THE PUMPKIN</p>
+        <div class="menu-buttons">
+          <button id="btn-new-game" class="primary-btn">NEW GAME</button>
+          <button id="btn-continue" class="secondary-btn">CONTINUE</button>
+          <button id="btn-nightmare" class="danger-btn">NIGHTMARE MODE</button>
+          <button id="btn-settings" class="secondary-btn">SETTINGS</button>
+          <button id="btn-how-to-play" class="secondary-btn">HOW TO PLAY</button>
+          <button class="btn-back-to-website secondary-btn" style="border-color:#c77dff; color:#e0aaff;">🌐 BACK TO WEBSITE</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- IN-GAME HUD -->
+    <div id="screen-hud" style="display:none;">
+      <div class="hud-crosshair"></div>
+      <div id="hud-prompt" class="hud-prompt">[E] Interact</div>
+
+      <!-- Top Left Status -->
+      <div class="hud-top-left">
+        <div class="hud-bar-container">
+          <span>STAMINA</span>
+          <div class="bar-track">
+            <div id="hud-stamina-fill" class="bar-fill"></div>
+          </div>
+        </div>
+        <div class="hud-bar-container">
+          <span>NOISE</span>
+          <div class="bar-track">
+            <div id="hud-noise-fill" class="bar-fill"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Left Magical Pumpkin -->
+      <div class="hud-bottom-left">
+        <div class="pumpkin-meter-box">
+          <span style="font-size:1.2rem;">🎃</span>
+          <div class="pumpkin-meter-track">
+            <div id="hud-pumpkin-fill" class="bar-fill"></div>
+          </div>
+        </div>
+        <div class="ability-selector">
+          <div id="slot-1" class="ability-slot active-slot" title="1: Soul Light">
+            <span class="slot-num">1</span>
+            <span>🕯️</span>
+          </div>
+          <div id="slot-2" class="ability-slot" title="2: Ghost Vision">
+            <span class="slot-num">2</span>
+            <span>👁️</span>
+          </div>
+          <div id="slot-3" class="ability-slot" title="3: Flash Burst">
+            <span class="slot-num">3</span>
+            <span>💥</span>
+          </div>
+          <div id="slot-4" class="ability-slot" title="4: Soul Tracker">
+            <span class="slot-num">4</span>
+            <span>🧭</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Virtual Controls -->
+      <div id="mobile-controls">
+        <div id="virtual-joystick-zone">
+          <div id="joystick-knob"></div>
+        </div>
+        <div id="touch-look-zone"></div>
+        <div class="mobile-action-buttons">
+          <button id="btn-touch-interact" class="touch-btn">USE</button>
+          <button id="btn-touch-pumpkin" class="touch-btn" style="color:#ffaa00">PUMP</button>
+          <button id="btn-touch-run" class="touch-btn">RUN</button>
+          <button id="btn-touch-crouch" class="touch-btn">CROUCH</button>
+          <button id="btn-touch-inv" class="touch-btn">BAG</button>
+        </div>
+      </div>
+
+      <div id="chapter-banner"></div>
+      <div id="toast-notification"></div>
+      <div id="debug-overlay"></div>
+    </div>
+
+    <!-- INVENTORY MODAL -->
+    <div id="screen-inventory" class="screen" style="display:none;">
+      <div class="menu-card" style="max-width: 580px;">
+        <h2>INVENTORY</h2>
+        <p class="puzzle-hint">Select an item to inspect its lore and clues:</p>
+        <div id="inventory-grid" class="inventory-grid"></div>
+        <div id="inventory-inspect" class="inspect-card">
+          <p style="color:#888;">Select an item to inspect</p>
+        </div>
+        <button id="btn-close-inventory" class="secondary-btn">CLOSE [TAB / I]</button>
+      </div>
+    </div>
+
+    <!-- PUZZLE MODAL -->
+    <div id="screen-puzzle" class="screen" style="display:none;">
+      <div class="menu-card" id="puzzle-content" style="max-width: 600px;"></div>
+    </div>
+
+    <!-- PAUSE MENU -->
+    <div id="screen-pause" class="screen" style="display:none;">
+      <div class="menu-card">
+        <h2>GAME PAUSED</h2>
+        <div class="menu-buttons" style="margin-top:20px;">
+          <button id="btn-resume" class="primary-btn">RESUME [ESC]</button>
+          <button id="btn-pause-menu" class="secondary-btn">IN-GAME MENU</button>
+          <button class="btn-back-to-website secondary-btn" style="border-color:#c77dff; color:#e0aaff;">🌐 BACK TO WEBSITE</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- GAME OVER -->
+    <div id="screen-game-over" class="screen" style="display:none;">
+      <div class="menu-card">
+        <h1 class="game-over-title">YOU DIED</h1>
+        <p style="color:#ff8888; margin: 15px 0 25px 0;">Elias dragged your soul into the pumpkin's curse.</p>
+        <div class="menu-buttons">
+          <button id="btn-retry" class="primary-btn">RETRY CHAPTER</button>
+          <button id="btn-game-over-menu" class="secondary-btn">IN-GAME MENU</button>
+          <button class="btn-back-to-website secondary-btn">🌐 BACK TO WEBSITE</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- VICTORY & ENDINGS -->
+    <div id="screen-victory" class="screen" style="display:none;">
+      <div class="menu-card" style="max-width: 620px;">
+        <h1 class="game-title" style="font-size:2.4rem;">ESCAPE THE CURSE</h1>
+        <div id="victory-narrative">
+          <p style="margin: 15px 0 20px 0;">You stand before the shattered exit of Pumpkin Crust. The magical Jack-o'-Lantern surges with primordial power.</p>
+          <div id="ending-choices" class="menu-buttons">
+            <button id="btn-end-purify" class="primary-btn">ENDING A: PURIFY ELIAS</button>
+            <button id="btn-end-escape" class="secondary-btn">ENDING B: FLEE INTO THE NIGHT</button>
+            <button id="btn-end-curse" class="danger-btn">ENDING C: BECOME THE NEW BEAST</button>
+          </div>
+        </div>
+        <div style="margin-top:25px; display:flex; gap:12px; justify-content:center;">
+          <button id="btn-victory-menu" class="secondary-btn">IN-GAME MENU</button>
+          <button class="btn-back-to-website secondary-btn">🌐 BACK TO WEBSITE</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SETTINGS MODAL -->
+    <div id="screen-settings" class="screen" style="display:none;">
+      <div class="menu-card">
+        <h2>SETTINGS</h2>
+        <div style="display:flex; flex-direction:column; gap:16px; margin:20px 0; text-align:left;">
+          <div>
+            <label>Camera Sensitivity</label>
+            <input type="range" id="setting-sensitivity" min="0.5" max="3.0" step="0.1" value="1.5" style="width:100%;">
+          </div>
+          <div>
+            <label>Sound Volume</label>
+            <input type="range" id="setting-volume" min="0.0" max="1.0" step="0.05" value="0.8" style="width:100%;">
+          </div>
+          <div style="display:flex; align-items:center; gap:10px;">
+            <input type="checkbox" id="setting-debug" style="width:18px; height:18px;">
+            <label for="setting-debug">Show Werewolf AI Debug Overlay</label>
+          </div>
+        </div>
+        <button id="btn-close-settings" class="secondary-btn">BACK</button>
+      </div>
+    </div>
+
+    <!-- HOW TO PLAY MODAL -->
+    <div id="screen-how-to-play" class="screen" style="display:none;">
+      <div class="menu-card" style="max-width:580px; text-align:left;">
+        <h2 style="text-align:center;">HOW TO SURVIVE</h2>
+        <div style="font-size:0.9rem; line-height:1.6; margin: 15px 0;">
+          <p><strong>🎯 Objective:</strong> Explore the abandoned pizzeria, gather pumpkin fragments, solve mysteries, and avoid Elias the Werewolf.</p>
+          <br>
+          <p><strong>🤫 Stealth & Noise:</strong></p>
+          <p>• Crouching is nearly silent (Noise: 5).</p>
+          <p>• Running makes heavy sound (Noise: 45) and will attract Elias from afar!</p>
+          <p>• Creaking doors and dropped items make noise.</p>
+          <p>• Hide inside wardrobes and lockers when hunted.</p>
+          <br>
+          <p><strong>🎃 Jack-o'-Lantern Abilities:</strong></p>
+          <p>• [1] Soul Light: Illuminates dark corridors.</p>
+          <p>• [2] Ghost Vision: Reveals invisible runic clues on tables and walls.</p>
+          <p>• [3] Flash Burst: Blinds & stuns Elias for 5 seconds!</p>
+          <p>• [4] Soul Tracker: Wisps guide you to the nearest pumpkin shard.</p>
+        </div>
+        <button id="btn-close-help" class="primary-btn" style="width:100%;">GOT IT</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
